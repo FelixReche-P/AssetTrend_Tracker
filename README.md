@@ -6,7 +6,6 @@ Hi! Welcome to my first data project. This is a robust data pipeline I built to 
 * Extraction (API): Consumes the public Binance API using Python's `requests` library.
 * Transformation: Handles data cleaning, strict typing, and timestamp formatting using `pandas`.
 * Loading (Database): Automated data insertion into a local MySQL database using the native Python connector.
-* Visualization: Direct connection and data modeling built in Power BI.
 
 ## Decisions: Why I built it this way
 * Fault Tolerance: Implemented composite keys `UNIQUE KEY` and `INSERT IGNORE` clauses to ensure that network drops or duplicate runs don't corrupt the database.
